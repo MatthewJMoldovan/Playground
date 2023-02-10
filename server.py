@@ -8,11 +8,11 @@ def index():
 
 @app.route("/play")
 def play():
-    return render_template("index.html", amount = 3, box_color = "rgb(159,197,248)")
+    return render_template("index.html", amount = 3, box_color = "#9fc5f8")
 
 @app.route("/play/<int:boxes>")
 def play1(boxes):
-    return render_template("index.html", amount = boxes, box_color = "rgb(159,197,248)")
+    return render_template("index.html", amount = boxes, box_color = "#9fc5f8")
 
 @app.route("/play/<int:boxes>/<box_color>")
 def play2(boxes,box_color):
