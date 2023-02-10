@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+        background-color:#9fc5f8;
+        width: 200px; 
+        height: 200px; 
+        border: solid 3px black; 
+        display: inline-block; 
+        margin: 15px; 
+        text-align: center;
+}
+
